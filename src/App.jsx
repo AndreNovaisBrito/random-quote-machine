@@ -17,7 +17,7 @@ function App() {
         <h2 id='author'>{author}</h2>
 
         <button id='new-quote' onClick={handleClick}>
-          New Quote
+          New Quote !!
         </button>
         <button >
           <a id='tweet-quote' href='twitter.com/intent/tweet' target="_top">Tweet</a>
