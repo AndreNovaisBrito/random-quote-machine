@@ -2,9 +2,13 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
 
+
 function App() {
   const [quote, setQuote] = useState('Nice quote 1');
   const [author, setAuthor] = useState('Jaesnan');
+  const QUOTES_API = 'https://zenquotes.io/api/random'
+  console.log(QUOTES_API);
+  
   function handleClick(){
     setQuote('Second Quote')
     setAuthor('Félix')
@@ -12,7 +16,6 @@ function App() {
   return (
     <div className="App">
       <wrapper id='quote-box'>
-
         <h1 id='text'>{quote}</h1>
         <h2 id='author'>{author}</h2>
 
