@@ -48,7 +48,7 @@ function App() {
     <div className="App">
       <div id='quote-box' className='quote-box'>
       <div className="quote-wrapper">
-        <h1 id='text'>{quote}</h1>
+        <h1 id='text'>"{quote}"</h1>
         
       </div>
         <div className='buttons'>
